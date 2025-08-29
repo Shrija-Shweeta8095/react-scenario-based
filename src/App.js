@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import AccessDOMElement from './scenarios/AccessDOMElement';
+import ScenarioThreeParent from './scenarios/ChildParent/ScenarioThreeParent';
+import ScenarioOne from './scenarios/DynamicHTMLData/ScenarioOne';
+import Parent from './scenarios/ParentChild/Parent';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* display dynamic html data in react */}
+      <ScenarioOne/> 
+
+      {/* send data from parent component to child component in react ? */}
+      <Parent/>
+
+      {/* call parent component method from child component in react */}
+      <ScenarioThreeParent/>
+
+      {/* access the dom element */}
+      <AccessDOMElement/>
     </div>
   );
 }

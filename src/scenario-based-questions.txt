@@ -1,0 +1,352 @@
+1. How to display dynamic html data in react ?
+2. How do you send data from parent component to child component in react ?
+3. How to call parent component method from child component in react ?
+4. How do you access the dom element ?
+5. How to bind array/array of objects to dropdown in react ?
+6. Create a lazy loaded component in react ?
+7. How to display data entered by the user in another textbox ?
+8. How to loop array/array of objects in react ?
+9. How to conditionally render an element or text in react ?
+10. How to change styles based on condition in react ?
+11. How to dhow and hide data based on condition in react ?
+12.Bind array/array of objects to radio button in react ?
+13.Display radio button data selected by user in another textbox ?
+14. How to call a method when component is rendered for the first time in react ?
+15.Display keys and values of objects in a loop in react?
+16. How to rerender a component on value change in react ?
+17. How to call a method on every rerender of a component ?
+18. How to add data into useState array in functional component in react ?
+19. Create a search textbox filter ?
+20.Create a counter component using useState ?
+21.Create a counter component using useReducer ?
+22.Change focus/enable/disable textbox in child component based on parent component button click ? 
+23. How to perform debouncing ?
+24.Create a component to fetch data from api ?
+25.Force a component to rerender with out using useState in react ?
+26. How to call a method immediately after state is updated or 
+after component is rerendered ?
+27. How to display number of characters remaining functionality for textarea using react useRef?
+28.Given two dropdowns, select 2nd dropdown options based on value selected in one dropdown ?
+(Load states based on country selected)
+29.Perform type checking using prop-types ?
+30.Share data between components using context api ?
+31.Give an emaple of optimization using useMemo ?
+32.Give an example of optimization using usecallbacks in react ?
+33.Create an error boundary component in react ?
+34. How to display dropdown value selected by user in another textbox ?
+35.Create a pure component ?
+36.Create a controlled and uncontrolled component in react ?
+37.Create a custom hook using ?
+38.Create a popup using portal ?
+39.Which lifecycle hooks in class component are replaced with useEffect in functional components ? 
+40.Create a pagination component ?
+41. How do you safeguard your application ?
+
+
+
+
+Here are 10 common ones 👇
+
+1️⃣ Your React app is getting slower when rendering a large list. How will you optimize it?
+
+2️⃣ How would you handle API call retries with exponential backoff in React?
+
+3️⃣ You have a component with heavy computations. How do you prevent unnecessary recalculations?
+
+4️⃣ A child component re-renders even when props don’t change — what’s your debugging approach?
+
+5️⃣ How do you implement role-based authentication in a React app?
+
+6️⃣ You need to share state across deeply nested components. What options do you have?
+
+7️⃣ How do you handle memory leaks in React apps (like setInterval, subscriptions)?
+
+8️⃣ What’s your strategy for error handling at the global React app level?
+
+9️⃣ How would you design a theme switcher (dark/light mode) in React?
+
+🔟 Your app needs offline support — how would you implement it?
+
+
+
+
+
+1. Code Splitting: Break down large bundles into smaller chunks to reduce initial load times
+2. Lazy Loading: Load non-essential components\asynchronously to prioritize critical content.
+3. Caching and Memoization: Cache data locally or use memoization libraries to avoid redundant API calls and computations.
+4. Memoization: Memoize expensive computations and avoid unnecessary re-renders using tools like React.memo and useMemo.
+5. Optimized Rendering: Use shouldComponentUpdate, PureComponent, or React.memo to prevent unnecessary re-renders of components.
+6. Virtualization: Implement virtual lists and grids to render only the visible elements, improving rendering performance for large datasets.
+7. Server-Side Rendering (SSR): Pre-render content on the server to improve initial page load times and enhance SEO.
+8. Bundle Analysis: Identify and remove unused dependencies, optimize images, and minify code to reduce bundle size.
+9. Performance Monitoring: Continuously monitor app performance using tools like Lighthouse, Web Vitals, and browser DevTools.
+10. Optimize rendering with keys: - Ensure each list item in a mapped array has a unique and stable key prop to optimize rendering performance. Keys help React identify which items have changed, been added, or removed, minimizing unnecessary DOM updates.
+11. CDN Integration: Serve static assets and resources from Content Delivery Networks (CDNs) to reduce latency and improve reliability.
+
+
+
+
+1. What are the limitations of React in building large-scale applications?
+
+2. How does React manage the Virtual DOM, and what are the benefits?
+
+3. Can React Hooks fully replace Redux for state management? Explain why or why not.
+
+4. What are the best practices for managing state in large React applications?
+
+5. How would you optimize performance in a React app with large component trees?
+
+6. Explain React's Strict Mode and its impact on development.
+
+7. How can you prevent unnecessary re-renders in React functional components?
+
+8. Describe the key differences between functional and class components in React.
+
+9. What is the significance of the React Fiber architecture?
+
+10. How does React handle side effects, and how can you manage them effectively?
+
+11. Explain the differences between `useMemo()` and `useCallback()` in React.
+
+12. How would you implement dynamic form handling and validation in React?
+
+13. What is lazy loading in React, and how does it improve application performance?
+
+14. How would you handle errors in a React app, and what is the role of error boundaries?
+
+15. What are the benefits of server-side rendering (SSR) in React applications?
+
+16. How do you handle styling in React components? Discuss different approaches.
+
+17. How would you pass data between sibling components in React without using Redux?
+
+18. Explain the use case of `useEffect()` for fetching data from an API.
+
+19. How do you handle asynchronous operations in React using `async/await` or Promises?
+
+20. How would you re-render a component when the window is resized?
+
+21. Describe how React Context API can be used for state management in an app.
+
+22. What is the role of React Router, and how does it work with dynamic routing?
+
+23. Explain the concept of controlled and uncontrolled components in React.
+
+24. How would you optimize React app performance when handling large lists or grids?
+
+25. Explain the difference between shallow and deep comparison in React's `shouldComponentUpdate`.
+
+26. How do you handle asynchronous code execution and state updates in React?
+
+27. How would you implement custom hooks to abstract logic in React?
+
+28. What are higher-order components (HOCs) in React, and how are they used?
+
+29. How would you implement a search feature with debouncing in React?
+
+30. Explain React's reconciliation process and how it updates the DOM efficiently.
+
+
+
+
+💠 What security features should be taken while designing API's?
+💠 What is API throttling?
+💠 How to improve the performance in React Application?
+💠 What is debouncing in React?
+💠 What if in a react app we need to develop a feature of auto save the inputs of a form?
+💠 Which react library is used to represent JSON data into charts, graphs, etc for better visualization and performance?
+💠 If you have to inform the backend developers about some API's are failing how will you do that?
+💠 Which tool is used to improve code standards in react application to show warnings for developers?
+💠 What are the unit testing tools used in React Application?
+💠 How do you handle API test case scenarios in React Application?
+💠 Give me a estimation of completing a auto save functionality with unit testing including?
+💠 Which cloud is used in your app development?
+
+
+
+ 1. How would you implement infinite scrolling in React?
+ - Discuss how to manage state for pagination and loading indicators.
+ - What are the different strategies (intersection observer vs scroll events)?
+
+ 2. Design and implement a debounced search input component.
+ - How would you handle race conditions in API responses?
+ - What about caching previous search results?
+
+ 3. How would you implement a virtualized list component?
+ - Discuss handling dynamic item heights vs fixed heights.
+ - What about scroll position maintenance during updates?
+
+ 4. Create a custom hook for data fetching with caching.
+ - How would you handle request deduplication?
+ - What about background refetching and optimistic updates?
+
+ 5. Implement a modal component with proper accessibility.
+ - Discuss backdrop click handling and escape key functionality.
+ - How would you prevent body scroll when modal is open?
+
+ 6. Design a global state management solution without external libraries.
+ - How would you implement a Context + useReducer pattern?
+ - How would you handle middleware for logging or async actions?
+
+ 7. Implement a form validation system with real-time feedback.
+- How would you structure validation rules and error messages?
+- What about conditional fields and dynamic form schemas?
+
+ 8. Create a drag and drop interface for reordering lists.
+- Discuss visual feedback during dragging operations
+- What about touch device support and accessibility?
+
+ 9. Design a notification/toast system.
+- How would you manage multiple notifications and their lifecycle?
+- How would you implement different notification types and priorities?
+
+ 10. Implement a multi-step form wizard with navigation.
+- How would you manage form state across multiple steps?
+- What about saving draft progress and resuming later?
+
+ 11. How would you optimize a component that renders thousands of items?
+- How would you implement component-level code splitting?
+- How would you profile and identify performance bottlenecks?
+
+ 12. Implement a image lazy loading component with placeholder.
+- How would you detect when images enter the viewport?
+- Discuss different placeholder strategies (blur, skeleton, etc.)
+- How would you handle loading errors and retry mechanisms?
+
+ 13. Create a data table with sorting, filtering, and pagination.
+- Discuss client-side vs server-side operations trade-offs.
+- How would you optimize re-renders when data changes?
+- What about column configuration and customizable layouts?
+
+
+
+𝗕𝗮𝘀𝗶𝗰 𝗟𝗲𝘃𝗲𝗹
+1. What is React and how does it work? 
+2. Functional vs Class components 
+3. Props vs State 
+4. What is JSX? 
+5. Creating a simple component 
+6. Virtual DOM 
+7. Key prop in lists 
+8. Event handling 
+9. Default props 
+10. Conditional rendering 
+
+𝗠𝗼𝗱𝗲𝗿𝗮𝘁𝗲 𝗟𝗲𝘃𝗲𝗹
+11. React Hooks: useState & useEffect 
+12. Controlled vs Uncontrolled components 
+13. React Router & client-side routing 
+14. Context API vs Redux 
+15. Prop drilling & solutions 
+16. React.memo for optimization 
+17. useMemo vs useCallback 
+18. Higher-Order Components (HOCs) 
+19. Handling forms & controlled inputs 
+
+𝗔𝗱𝘃𝗮𝗻𝗰𝗲𝗱 𝗟𝗲𝘃𝗲𝗹
+20. Re-renders & performance optimization 
+21. Reconciliation 
+22. Diffing algorithm 
+23. React.lazy & Suspense 
+24. Error boundaries 
+25. Auth & protected routes 
+26. Render props vs HOCs 
+27. SSR vs CSR 
+28. React Fiber & Concurrent Mode 
+29. Testing React components 
+
+
+
+1. How to cancel the api call when the timeout occurs using abort controller 
+2. Create a component to upload the file in reactjs ?
+3. How to create a Custom Hook for Data Fetching with Loading and Error States ?
+4. How will you Manage Environment-Specific Configurations in Reactjs in your project ?
+5. Create a Higher-Order Component (HOC) to Log Props in reactjs ?
+6. How to update Document Title on Mount in a React Component ?
+7. How to Implement a Theme Switcher Using Context API ?
+8. How do you access the dom element in reactjs ?
+9. How to change styles based on condition in react ?
+10. How to call a method when component is rendered for the first time in react 
+11. Give an example of optimization using usecallbacks in react ?
+12. How to rerender a component on value change in react ?
+13. How to Force a component to rerender with out using useState in react ?
+14. How to call a method immediately after state is updated or after component is rerendered in reactjs ?
+15. How to Create a popup using portal in reactjs ?
+16. Which lifecycle hooks in class component are replaced with useEffect in functional components ? 
+17. How to Share data between components using context api and redux ?
+18. Give an examaple of optimization using useMemo and usecallback ?
+19. Create a counter component using useReducer ?
+20. Create a search textbox filter in reactjs ?
+21. How will you implement debounce in reactjs for filtering ?
+
+
+
+🟢 1. React Fundamentals
+1️⃣ What is React?
+ 2️⃣ What are the key features of React?
+ 3️⃣ What is JSX?
+ 4️⃣ What is the DOM?
+ 5️⃣ What is Virtual DOM?
+ 6️⃣ What are props in React?
+ 7️⃣ What is state in ReactJS?
+ 8️⃣ What is the difference between props and state?
+ 9️⃣ What is prop drilling?
+ 🔟 How to avoid prop drilling?
+
+🔵 2. Component System & Lifecycle
+
+1️⃣1️⃣ What is the component lifecycle in React class components?
+ 1️⃣2️⃣ What are Pure components in React?
+ 1️⃣3️⃣ What are fragments in React?
+ 1️⃣4️⃣ What are Refs in React?
+ 1️⃣5️⃣ What is forwardRef?
+ 1️⃣6️⃣ What are Error Boundaries?
+ 1️⃣7️⃣ What are Higher Order Components (HOCs)?
+ 1️⃣8️⃣ What are Portals in React?
+ 1️⃣9️⃣ What is Strict Mode in React?
+
+🟠 3. Hooks Deep Dive
+
+2️⃣0️⃣ What is useState and when to use it?
+ 2️⃣1️⃣ What is useReducer and when to use it over useState?
+ 2️⃣2️⃣ What is useEffect and which class lifecycle methods does it replace?
+ 2️⃣3️⃣ What is useMemo?
+ 2️⃣4️⃣ What is useCallback?
+ 2️⃣5️⃣ Difference between useMemo and useCallback?
+ 2️⃣6️⃣ What are custom hooks?
+ 2️⃣7️⃣ What are the different hooks you’ve used?
+
+🧠 4. Practical Coding & Usage
+
+2️⃣8️⃣ Create a custom hook for increment/decrement counter
+ 2️⃣9️⃣ Practical: Use callback function to send data from child to parent
+ 3️⃣0️⃣ Practical: Send data from child to parent using useRef
+ 3️⃣1️⃣ Practical: Use Context API with a working example
+
+🟣 5. Data Flow, Events & Rendering
+3️⃣2️⃣ What are synthetic events in React?
+ 3️⃣3️⃣ What are controlled vs uncontrolled components?
+ 3️⃣4️⃣ What are keys in React?
+ 3️⃣5️⃣ What is lazy loading in React?
+ 3️⃣6️⃣ What is Suspense in React?
+ 3️⃣7️⃣ What is the purpose of the callback function inside setState()?
+ 3️⃣8️⃣ Different ways to pass data from child to parent component
+
+🟡 6. Context, Redux, and State Management
+
+3️⃣9️⃣ What is Context API in React?
+ 4️⃣0️⃣ Practical: Example usage of Context API
+ 4️⃣1️⃣ Context API vs Redux — when to use what?
+ 4️⃣2️⃣ What are prop types? How to apply validation on props?
+
+🔴 7. Performance & Patterns
+
+4️⃣3️⃣ How do you optimize a React application?
+ 4️⃣4️⃣ How do you consume a RESTful JSON API in ReactJS?
+ 4️⃣5️⃣ What are different design patterns used in React?
+ 4️⃣6️⃣ What are React Mixins?
+ 4️⃣7️⃣ What are render props in React?
+ 4️⃣8️⃣ What is the difference between React.createElement and React.cloneElement?
+ 4️⃣9️⃣ What are the different types of exports and imports in React?
+ 5️⃣0️⃣ What are protected routes in React?
+ 5️⃣1️⃣ Does React Router support context menus?
